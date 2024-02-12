@@ -26,6 +26,7 @@
 		AA003D282B7A6694006A9BDF /* StoryCardObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA003D272B7A6694006A9BDF /* StoryCardObject.swift */; };
 		AA003D2A2B7A9BC9006A9BDF /* StoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA003D292B7A9BC9006A9BDF /* StoryCollectionCell.swift */; };
 		AA003D2E2B7A9CA3006A9BDF /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA003D2D2B7A9CA3006A9BDF /* StoryView.swift */; };
+		AA5699772B7AE248003A5014 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5699762B7AE248003A5014 /* PostCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		AA003D272B7A6694006A9BDF /* StoryCardObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCardObject.swift; sourceTree = "<group>"; };
 		AA003D292B7A9BC9006A9BDF /* StoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionCell.swift; sourceTree = "<group>"; };
 		AA003D2D2B7A9CA3006A9BDF /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		AA5699762B7AE248003A5014 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +271,7 @@
 		AA003D222B7A64CA006A9BDF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				AA5699752B7AE222003A5014 /* Post */,
 				AA003D2C2B7A9C7D006A9BDF /* Story */,
 				AA003D2B2B7A9C74006A9BDF /* StoryCard */,
 			);
@@ -307,6 +310,14 @@
 				AA003D292B7A9BC9006A9BDF /* StoryCollectionCell.swift */,
 			);
 			path = Story;
+			sourceTree = "<group>";
+		};
+		AA5699752B7AE222003A5014 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				AA5699762B7AE248003A5014 /* PostCollectionViewCell.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,6 +455,7 @@
 				AA003CD92B76BC96006A9BDF /* HomeViewController.swift in Sources */,
 				AA003D122B76BE7A006A9BDF /* ViewConfig.swift in Sources */,
 				AA003D1C2B76CB90006A9BDF /* UIColor+Extensions.swift in Sources */,
+				AA5699772B7AE248003A5014 /* PostCollectionViewCell.swift in Sources */,
 				AA003D152B76BEAF006A9BDF /* NSLayout.swift in Sources */,
 				AA003D0E2B76BE3F006A9BDF /* HomeView.swift in Sources */,
 				AA003D1E2B779D52006A9BDF /* StoryCardCollectionViewCell.swift in Sources */,
