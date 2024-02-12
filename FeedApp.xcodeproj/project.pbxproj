@@ -187,7 +187,7 @@
 			children = (
 				AA003D262B7A667F006A9BDF /* Domain */,
 				AA003D092B76BCF6006A9BDF /* UI */,
-				AA003D1F2B779E05006A9BDF /* Cell */,
+				AA003D1F2B779E05006A9BDF /* Cells */,
 				AA003D0A2B76BCFB006A9BDF /* Presentation */,
 			);
 			path = Home;
@@ -261,13 +261,13 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
-		AA003D1F2B779E05006A9BDF /* Cell */ = {
+		AA003D1F2B779E05006A9BDF /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				AA003D222B7A64CA006A9BDF /* UI */,
 				AA003D232B7A64CF006A9BDF /* Presentation */,
 			);
-			path = Cell;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		AA003D222B7A64CA006A9BDF /* UI */ = {
@@ -317,8 +317,8 @@
 		AA5699752B7AE222003A5014 /* Post */ = {
 			isa = PBXGroup;
 			children = (
-				AA5699762B7AE248003A5014 /* PostCollectionViewCell.swift */,
 				AA5699782B7AE2C6003A5014 /* PostCardView.swift */,
+				AA5699762B7AE248003A5014 /* PostCollectionViewCell.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
