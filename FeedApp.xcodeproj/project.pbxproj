@@ -27,6 +27,7 @@
 		AA003D2A2B7A9BC9006A9BDF /* StoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA003D292B7A9BC9006A9BDF /* StoryCollectionCell.swift */; };
 		AA003D2E2B7A9CA3006A9BDF /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA003D2D2B7A9CA3006A9BDF /* StoryView.swift */; };
 		AA5699772B7AE248003A5014 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5699762B7AE248003A5014 /* PostCollectionViewCell.swift */; };
+		AA5699792B7AE2C6003A5014 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5699782B7AE2C6003A5014 /* PostCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		AA003D292B7A9BC9006A9BDF /* StoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionCell.swift; sourceTree = "<group>"; };
 		AA003D2D2B7A9CA3006A9BDF /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		AA5699762B7AE248003A5014 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA5699782B7AE2C6003A5014 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				AA5699762B7AE248003A5014 /* PostCollectionViewCell.swift */,
+				AA5699782B7AE2C6003A5014 /* PostCardView.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				AA5699772B7AE248003A5014 /* PostCollectionViewCell.swift in Sources */,
 				AA003D152B76BEAF006A9BDF /* NSLayout.swift in Sources */,
 				AA003D0E2B76BE3F006A9BDF /* HomeView.swift in Sources */,
+				AA5699792B7AE2C6003A5014 /* PostCardView.swift in Sources */,
 				AA003D1E2B779D52006A9BDF /* StoryCardCollectionViewCell.swift in Sources */,
 				AA003D0C2B76BE0E006A9BDF /* HomeViewModel.swift in Sources */,
 				AA003D252B7A64F6006A9BDF /* StoryCardCollectionViewModel.swift in Sources */,
